@@ -19,6 +19,18 @@ Abordamos os seguintes tópicos:
 * Desenvolvimento de testes unitários para validação de funcionalides básicas: criação, listagem, consulta por nome e exclusão de cervejas.
 * TDD: apresentação e exemplo prático em 2 funcionaliades importantes: incremento e decremento do número de cervejas no estoque.
 
+## Environment
+
+São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+
+* Java 14 ou versões superiores.
+* Maven 3.6.3 ou versões superiores.
+* Intellj IDEA Community Edition ou sua IDE favorita.
+* Controle de versão GIT instalado na sua máquina.
+* Muita vontade de aprender e compartilhar conhecimento :)
+
+## Running the project
+
 Para executar o projeto no terminal, digite o seguinte comando:
 
 ```shell script
@@ -37,13 +49,23 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 http://localhost:8080/api/v1/beers
 ```
 
-São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+## Swagger
 
-* Java 14 ou versões superiores.
-* Maven 3.6.3 ou versões superiores.
-* Intellj IDEA Community Edition ou sua IDE favorita.
-* Controle de versão GIT instalado na sua máquina.
-* Muita vontade de aprender e compartilhar conhecimento :)
+Open the url `http://localhost:8080/swagger-ui.html`
+
+![Swagger screen](./screenshots/swagger-screen.png)
+
+![Swagger get](./screenshots/swagger-get.png)
+
+![Swagger patch](screenshots/swagger-patch.png)
+
+If you try to increment an exceeded quantity, you'll receive a 400 code.
+
+![Swagger patch error](screenshots/swagger-patch-error.png)
+
+![Swagger delete](./screenshots/swagger-delete.png)
+
+## References
 
 Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
 
